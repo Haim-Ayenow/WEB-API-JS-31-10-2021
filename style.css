@@ -1,14 +1,5 @@
-/* *{
-    width:0;
-    height:0;
-} */
 body{
     background:url("https://images.alphacoders.com/647/thumb-1920-647552.jpg");
-  
-    /* display:flex;
-    flex-wrap: wrap; 
-     flex-direction:column;  */
-  /* background-color: brown; */
 }
 #myDiv{
       display: flex;
