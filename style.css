@@ -1,0 +1,62 @@
+/* *{
+    width:0;
+    height:0;
+} */
+body{
+    background:url("https://images.alphacoders.com/647/thumb-1920-647552.jpg");
+  
+    /* display:flex;
+    flex-wrap: wrap; 
+     flex-direction:column;  */
+  /* background-color: brown; */
+}
+#myDiv{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+      justify-content: center;
+}
+.card{
+    text-align: center;
+    color: rgb(253, 245, 242);
+    font-weight:bolder;
+    width: 32%;
+    height: auto;
+    border-radius: 3%;
+    border: black solid 3px;
+    margin: 5px;
+    background-color: rgba(1, 9, 17, 0.726);
+}
+.card img{
+width: 50%;
+height: 50%;
+transition: 1s;
+}
+.card:hover >img{
+width: 60%;
+height: 60%;
+}
+
+#loadingGif{
+    width: 30%;
+    height: 30%;
+
+}
+#inputDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#search,#btn{
+    width: 30vw;
+    height: 5vh; 
+    padding: 0;
+    border: none;
+    text-align: center;
+
+}
+#btn{
+ border-top: black 1px solid;
+ background-color:lightsalmon;
+}
